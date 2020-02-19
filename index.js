@@ -1,13 +1,6 @@
 const Scrapper = require('./Scrapper');
 
 const scrapper = new Scrapper();
-/*
-(async () => {
-  const postt = await getPostText('https://www.drive2.ru/l/521199024087237027/');
-  const text = await createNewTopic(94, 96, 'Незапланированная предновогодняя поездка на дачу', 543, 'Какие-то теги', postt);
-  await console.log(text);
-})();
-*/
 
 (async () => {
   //await scrapper.getAllLinks('https://www.drive2.ru/experience/mitsubishi/g5051?from=0');
@@ -41,6 +34,4 @@ const scrapper = new Scrapper();
     await abc();
   }
 
-  // const links = await scrapper.links;
-  // await console.log(links);
 })();
